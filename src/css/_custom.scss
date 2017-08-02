@@ -1,0 +1,81 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+@import "agency/agency.scss";
+@import "agency/_mixins.scss";
+@import "font-awesome/scss/font-awesome.scss";
+
+#wrapper {
+	margin-top: 32px !important;
+}
+
+/* Liferay Search Customisation */
+
+.field.search-input.form-control {
+		max-width: 180px;
+}
+
+/* Liferay Navigation Customisation */
+
+.lfr-nav-item > a {
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-top: 15px;
+	text-transform: uppercase;
+	color: #FFF;
+	padding-left: 0px !important;
+}
+
+.lfr-nav-item > a:active {
+	color: $theme-primary;
+}
+
+.lfr-nav-item > a:hover {
+	color: $theme-primary;
+}
+
+/* Site title customisation */
+
+.navbar-custom .navbar-brand {
+	padding: 15px 0;
+	font-size: 1.8em;
+}
+
+/* Content Margins */
+
+#content {
+	margin: auto;
+	max-width: 1250px;
+}
+
+/* Footer styles */
+
+#footer {
+	background-color: #000;
+}
+
+#copyright {
+	color: #FFF;
+}
+
+/* Alternative background color */
+
+.altbackground {
+	background-color: #cacccb;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+/* Style burger menu */
+
+.collapsed navbar-toggle {
+	color: $theme-primary;
+}
+
+
+
+
